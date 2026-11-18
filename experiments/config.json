@@ -1,7 +1,7 @@
 {
     "defaults": {
         "sigma_noise": 50,
-        "rho_noise": 1,
+        "rho_noise": 1.5, 
         "SE2": {
             "xi": 0.01,
             "σ_s": 1.0,
@@ -58,6 +58,19 @@
             "xi": 0.1,
             "phi": 0.1,
             "T": 0.06
+        },
+        "bm3d_max_scale": 100.0,
+        "bm3d_step_scale": 1.0
+    },
+     "remco": {
+        "ground_truth": "remco.png",
+        "SE2": {
+            "T": 0.04
+        },
+        "SIM2": {
+            "xi": 0.12,
+            "phi": 0.01,
+            "T": 0.1
         },
         "bm3d_max_scale": 100.0,
         "bm3d_step_scale": 1.0
